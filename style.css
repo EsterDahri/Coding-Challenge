@@ -1,0 +1,88 @@
+/* Sfondo pagina e font pagina */
+body{
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+/* Sfondo del contenuto */
+table {
+  table-layout: fixed;
+   width: 80px;
+   border-collapse: separate;
+}
+.row {
+    background: rgba(0, 0, 0, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
+    width: 1000px;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* Contenuto */
+.container{
+  margin: auto;
+  margin-left: 40px;
+  width: 900px;
+}
+
+/* Logo e titolo */
+header{
+  margin: 5%;
+  text-align: center;
+  font-weight: bold;
+  color: #39FF14;
+}
+
+.logo{
+  width: 230px;
+}
+
+/* Bottoni */
+.bottoni{
+  text-align: center;
+  margin: 5%;
+}
+nav{
+  background-color: #39FF14
+}
+hr{
+  border-color: #39FF14
+}
+
+/* Scelte disponibili */
+main{
+  color: white;
+  margin: 5%;
+}
+.Monopattino{
+  font-size: large;
+}
+.Via{
+  font-size: small;
+}
+.rettangolo1 {
+	width:300px;
+	height:25px;
+	background:orange;
+  border-radius: 5px 5px 5px 5px;
+}
+.rettangolo2 {
+	width:600px;
+	height:25px;
+	background:green;
+  border-radius: 5px 5px 5px 5px;
+}
+.rettangolo3 {
+	width:150px;
+	height:25px;
+	background:red;
+  border-radius: 5px 5px 5px 5px;
+}
